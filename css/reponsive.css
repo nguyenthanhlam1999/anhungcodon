@@ -1,0 +1,60 @@
+@media screen and (max-width : 1024px)
+{
+    #header ul.introduce li a {
+        font-size: 10px;
+    }
+    .target h3{
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 12px 0px 12px 0px;
+        color: white;
+    }
+    .target p{ 
+        font-size: 14px;
+    }
+    #content .time h3 {
+        padding: 7px;
+    }
+
+}
+@media screen and (max-width: 680px)
+{
+    #header ul.introduce li a {
+        font-size: 15px;
+    }
+    #content .education h3 {
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .introduce #name h3 {
+
+        font-size: 23px;
+    }
+    .introduce #name h4 {
+        font-size: 20px;
+    }
+    .target p {
+        font-size: 12px;
+        line-height: 27px;
+    }
+    #content .education h3 {
+        font-size: 29px;
+        text-align: center;
+        
+    }
+    #content .describe p {
+        font-size: 14px;
+    }
+    #footer .skill h3 {
+        font-size: 11px;
+    }
+    #header ul.introduce li a {
+        font-size: 12px;
+    }
+    #back-top {
+        padding: 9px;
+    }
+}
