@@ -107,7 +107,7 @@ body{
     font-size: 10px;
 }
 #content .education {
-    padding-top: 35px;
+    padding: 42px 0px 36px 0px
 }
 #content .education h3{
     font-size: 40px;
@@ -136,18 +136,20 @@ body{
     color: black;
     padding: 12px 0px 12px 0px;
 }
-#footer{
-    background: #203e48;
+#bg{
+    background: #34495e;
+}
+#content-skill{
     min-width: 100%;
 }
- #footer .title h3{
+ #content-skill .title h3{
     font-size: 30px;
     color: #fa9401;
     text-align: center;
     padding: 12px;
     
 }
-#footer .skill h3{
+#content-skill .skill h3{
     padding: 10px;
     font-size: 20px;
     color: white;
@@ -162,4 +164,29 @@ body{
     border: none;
     background: #cecece;
     cursor: pointer;
+}
+#title{
+    padding: 42px 0px 36px 0px;
+}
+#cart-title{
+    background: #34495e; ;
+}
+#hobby #title h3{
+    font-size: 40px;
+    color: #fa9401;
+
+}
+#hobby .icon{
+    color:  #fa9401;
+    padding-bottom: 6px;
+    font-size: 40px;
+    padding: 12px;
+}
+#hobby #cart-title p{
+    color: white;
+    font-size: 23px;
+    padding: 12px;
+}
+.col-md-2{
+    text-align: center;
 }
